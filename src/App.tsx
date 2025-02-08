@@ -3,10 +3,11 @@ import ProposalCard from "./components/ProposalCard.tsx";
 import Memories from './components/Memories';
 import './App.css'
 
-function App() {
 
+
+function App() {
   return (
-    <Router>
+    <Router basename="/proposal">
         <Routes>
             <Route path="/" element={<ProposalCard />} />
             <Route path="/memories" element={<Memories />} />

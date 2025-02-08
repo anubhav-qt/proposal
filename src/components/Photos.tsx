@@ -4,10 +4,10 @@ const Photos = () => {
     return (
         <StyledWrapper>
             <div className="main z-1">
-                <div id="c1" className="Card"><div className="box w-[75px] h-[75px] mt-[7px]"><img src="src/assets/rutu4.jpg" alt="us1"/></div></div>
-                <div id="c2" className="Card"><div className="box w-[75px] h-[75px] mt-[7px]"><img src="src/assets/rutu3.jpg" alt="us1"/></div></div>
-                <div id="c3" className="Card"><div className="box w-[75px] h-[75px] mt-[7px]"><img src="src/assets/rutu2.jpg" alt="us1"/></div></div>
-                <div id="c4" className="Card"><div className="box w-[75px] h-[75px] mt-[7px]"><img src="src/assets/rutu1.jpg" alt="us1"/></div></div>
+                <div id="c1" className="Card"><div className="box w-[75px] h-[75px] mt-[7px]"><img src={"./src/assets/rutu4.jpg"} alt="us1"/></div></div>
+                <div id="c2" className="Card"><div className="box w-[75px] h-[75px] mt-[7px]"><img src={"./src/assets/rutu3.jpg"} alt="us1"/></div></div>
+                <div id="c3" className="Card"><div className="box w-[75px] h-[75px] mt-[7px]"><img src={"./src/assets/rutu2.jpg"} alt="us1"/></div></div>
+                <div id="c4" className="Card"><div className="box w-[75px] h-[75px] mt-[7px]"><img src={"./src/assets/rutu1.jpg"} alt="us1"/></div></div>
             </div>
         </StyledWrapper>
     );
