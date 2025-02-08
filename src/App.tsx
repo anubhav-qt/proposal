@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import ProposalCard from "./components/ProposalCard.tsx";
 import Memories from './components/Memories';
 import './App.css'
