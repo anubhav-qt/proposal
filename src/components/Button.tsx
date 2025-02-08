@@ -1,6 +1,11 @@
+import React from 'react';
 import styled from 'styled-components';
 
-const Button = ({props}) => {
+interface ButtonProps {
+    props: () => void;
+}
+
+const Button: React.FC<ButtonProps> = ({props}) => {
     return (
         <StyledWrapper>
             <button className="cta relative left-[40px]" onClick={props} >
