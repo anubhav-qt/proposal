@@ -4,10 +4,10 @@ const Photos = () => {
     return (
         <StyledWrapper>
             <div className="main z-1">
-                <div id="c1" className="Card"><div className="box w-[75px] h-[75px] mt-[7px]"><img src={"https://github.com/anubhav-qt/proposal/blob/master/public/rutu4.jpg"} alt="us1"/></div></div>
-                <div id="c2" className="Card"><div className="box w-[75px] h-[75px] mt-[7px]"><img src={"https://github.com/anubhav-qt/proposal/blob/master/public/rutu3.jpg"} alt="us1"/></div></div>
-                <div id="c3" className="Card"><div className="box w-[75px] h-[75px] mt-[7px]"><img src={"https://github.com/anubhav-qt/proposal/blob/master/public/rutu2.jpg"} alt="us1"/></div></div>
-                <div id="c4" className="Card"><div className="box w-[75px] h-[75px] mt-[7px]"><img src={"https://github.com/anubhav-qt/proposal/blob/master/public/rutu1.jpg"} alt="us1"/></div></div>
+                <div id="c1" className="Card"><div className="box w-[75px] h-[75px] mt-[7px]"><img src={"https://media.discordapp.net/attachments/808570701698039818/1337768072802734184/rutu4.jpg?ex=67a8a51b&is=67a7539b&hm=c0b91aa7677f8f8eea119d7ec77ad36700f9e14de57d45d8cd70b024053eabfd&=&format=webp&width=645&height=645"} alt="us1"/></div></div>
+                <div id="c2" className="Card"><div className="box w-[75px] h-[75px] mt-[7px]"><img src={"https://media.discordapp.net/attachments/808570701698039818/1337768072525647922/rutu3.jpg?ex=67a8a51b&is=67a7539b&hm=c7a91c4c7064e79f4ee00bd59d9e77c22802bf4721523537bda5856576559f1a&=&format=webp&width=645&height=645"} alt="us1"/></div></div>
+                <div id="c3" className="Card"><div className="box w-[75px] h-[75px] mt-[7px]"><img src={"https://media.discordapp.net/attachments/808570701698039818/1337768072265859155/rutu2.jpg?ex=67a8a51a&is=67a7539a&hm=db4fd3d24c6a78e3693c3cee6b6b24d478a35855ffe9115cfa60a44b835664f2&=&format=webp&width=645&height=645"} alt="us1"/></div></div>
+                <div id="c4" className="Card"><div className="box w-[75px] h-[75px] mt-[7px]"><img src={"https://media.discordapp.net/attachments/808570701698039818/1337768071963738284/rutu1.jpg?ex=67a8a51a&is=67a7539a&hm=e7175a3eb4d7706d230673d769f937c4254067fc3952d1ed3b0f3f97f4597c4d&=&format=webp&width=645&height=645"} alt="us1"/></div></div>
             </div>
         </StyledWrapper>
     );
